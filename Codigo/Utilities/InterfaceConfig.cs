@@ -45,7 +45,7 @@ namespace DM_BA_88A.Utilities
             endPointResultados = ConfigurationManager.AppSettings["endPointResultados"].ToString();
             endPointBase = ConfigurationManager.AppSettings["endPointBase"].ToString();
 
-            AdicionaUnidades = ConfigurationManager.AppSettings["AdicionaUnidades"].ToString();
+            AdicionaUnidades = "N";
         }
     }
 }

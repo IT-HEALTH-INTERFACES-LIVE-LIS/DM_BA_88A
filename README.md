@@ -9,6 +9,6 @@ Analista de requirieminto: Ing. Gerardo Piñeros
 Desarrollador: Ing. Edward Arroyave
 Tester: Ing. Gerardo Piñeros
 Version 📌
-1.0.0
+1.0.1
 Licencia 📄
 Este proyecto está bajo la Licencia de IT Health

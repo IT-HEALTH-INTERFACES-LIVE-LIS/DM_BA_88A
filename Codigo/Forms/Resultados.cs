@@ -311,7 +311,8 @@ namespace DM_BA_88A.Forms
                     log.RegistraEnLog(" Paquete Recibido " + Convert.ToString(x) + " --> " + ArrPaqueteResultado[x], nombreLog);
                 }
 
-                string resultadoRecibido = ProcesarResultados(ArrPaqueteResultado);
+                string Token = servicioLiveLis.ObtenerToken();
+                string resultadoRecibido = ProcesarResultados(ArrPaqueteResultado, Token);
                 MensajesEstadosTerminal("", EnumEstados.Empty);
                 MensajesEstadosTerminal("", EnumEstados.Empty);
              
@@ -548,7 +549,7 @@ namespace DM_BA_88A.Forms
         #endregion
 
         #region Metodos formulario resultados
-        public string ProcesarResultados(string[] paqueteResultado)
+        public string ProcesarResultados(string[] paqueteResultado,string token)
         {
 
             ResultadoAnalito resultadoAnlito = new ResultadoAnalito();
@@ -638,7 +639,7 @@ namespace DM_BA_88A.Forms
                         }
 
                         log.RegistraEnLog("Variable: " + strVariable + " Resultado: " + strResultado, nombreLog);
-                        RegistraResultados(resultadoAnlito, strUnidades.Trim());
+                        RegistraResultados(resultadoAnlito, strUnidades.Trim(), token);
 
                     }
 
@@ -652,7 +653,7 @@ namespace DM_BA_88A.Forms
             return "Ok";
         }
 
-        private void RegistraResultados(ResultadoAnalito resultadoAnalito, string strUnidades)
+        private void RegistraResultados(ResultadoAnalito resultadoAnalito, string strUnidades ,string token)
         {
 
             MensajesEstadosTerminal($"Incia proceso de envio  de resultados", EnumEstados.Process);
@@ -660,7 +661,7 @@ namespace DM_BA_88A.Forms
             if (InterfaceConfig.AdicionaUnidades == "S") resultadoAnalito.result = resultadoAnalito.result + " " + strUnidades;
             else resultadoAnalito.result = resultadoAnalito.result;
 
-            servicioLiveLis.EnviarResultados(resultadoAnalito);
+            servicioLiveLis.EnviarResultados(resultadoAnalito, token);
             MensajesEstadosTerminal($"finaliza  proceso de envio  de resultados", EnumEstados.Process);
 
         }

@@ -3,7 +3,7 @@
   <asmv1:assemblyIdentity name="DM_BA_88A.exe" version="1.0.0.0" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
   <application />
   <entryPoint>
-    <assemblyIdentity name="DM_BA_88A" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <assemblyIdentity name="DM_BA_88A" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
     <commandLine file="DM_BA_88A.exe" parameters="" />
   </entryPoint>
   <trustInfo>
@@ -43,13 +43,13 @@
   </dependency>
   <dependency>
     <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="DM_BA_88A.exe" size="431104">
-      <assemblyIdentity name="DM_BA_88A" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <assemblyIdentity name="DM_BA_88A" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jy5o0ZgDa03A/Y0Ypu8fqXjUVd3o8S7Uxu9xJt++4wM=</dsig:DigestValue>
+        <dsig:DigestValue>o6q0ZAeTHOoWetqTsWliz356xuQVKYB8QXHgRE3+Jts=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -197,22 +197,22 @@
       </hash>
     </dependentAssembly>
   </dependency>
-  <file name="App.config" size="2439">
+  <file name="App.config" size="2395">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>i4RNWmuUu4oMvVquG7duP7MFM4yhmEkFhBZRJ5u1UEs=</dsig:DigestValue>
+      <dsig:DigestValue>i5h4y9nzhBVQxeyCHv0D6atmSboMAsDfNSchrr2Cghs=</dsig:DigestValue>
     </hash>
   </file>
-  <file name="DM_BA_88A.exe.config" size="3248">
+  <file name="DM_BA_88A.exe.config" size="3202">
     <hash>
       <dsig:Transforms>
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>n2t5Xo/loJ4FIPz6URaFjtkUxw9i7/iynWPetdLqpOU=</dsig:DigestValue>
+      <dsig:DigestValue>37ravAGh/Ks+VU+hLtn+09aEXnbWkygW9zVYqBWJBsk=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>
