@@ -25,10 +25,10 @@ D:\learning\BA-88A\Codigo\obj\Debug\DM_BA_88A.application
 D:\learning\BA-88A\Codigo\obj\Debug\DM_BA_88A.csproj.CopyComplete
 D:\learning\BA-88A\Codigo\obj\Debug\DM_BA_88A.exe
 D:\learning\BA-88A\Codigo\obj\Debug\DM_BA_88A.pdb
+D:\Projects\DM\DM_BA_88A\PUBLICACION\DM_BA_88A.exe
 D:\Projects\DM\DM_BA_88A\PUBLICACION\DM_BA_88A.exe.config
 D:\Projects\DM\DM_BA_88A\PUBLICACION\DM_BA_88A.exe.manifest
 D:\Projects\DM\DM_BA_88A\PUBLICACION\DM_BA_88A.application
-D:\Projects\DM\DM_BA_88A\PUBLICACION\DM_BA_88A.exe
 D:\Projects\DM\DM_BA_88A\PUBLICACION\DM_BA_88A.pdb
 D:\Projects\DM\DM_BA_88A\Codigo\obj\Debug\DM_BA_88A.csproj.AssemblyReference.cache
 D:\Projects\DM\DM_BA_88A\Codigo\obj\Debug\DM_BA_88A.csproj.SuggestedBindingRedirects.cache

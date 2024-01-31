@@ -49,7 +49,7 @@
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>jh6Hxa3UC3fKe41FBUF0b+H79SeKpaHG3HJomL8KTAY=</dsig:DigestValue>
+        <dsig:DigestValue>TNj+ojbL8VSbdaYt54eaTKHZSJexahOiyswE9uzZi1A=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -203,7 +203,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>i4RNWmuUu4oMvVquG7duP7MFM4yhmEkFhBZRJ5u1UEs=</dsig:DigestValue>
+      <dsig:DigestValue>r37txRygekZKY/aUl7W+qodOhMBo6VctPaIcYKxCh08=</dsig:DigestValue>
     </hash>
   </file>
   <file name="DM_BA_88A.exe.config" size="3248">
@@ -212,7 +212,7 @@
         <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-      <dsig:DigestValue>n2t5Xo/loJ4FIPz6URaFjtkUxw9i7/iynWPetdLqpOU=</dsig:DigestValue>
+      <dsig:DigestValue>Xi+FxtCw+KxK/ye9M1qNgYP1wJc7fV1N1r80e31esTY=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

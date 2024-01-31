@@ -24,17 +24,17 @@ namespace DM_BA_88A.Services
             client = new RestClient(options);
         }
 
-        public void EnviarResultados(ResultadoAnalito resultado)
+        public void EnviarResultados(ResultadoAnalito resultado, string tokenObtenido)
         {
             try
             {
-                string token = ObtenerToken();
-                if (token != null)
+                
+                if (tokenObtenido != null)
                 {
                     EjecutarMensajeEstadosTerminal("Enviando resultados...", EnumEstados.Process);
 
                     RestRequest request = new RestRequest($"{InterfaceConfig.endPointResultados}", Method.Post)
-                                .AddHeader("Authorization", $"Bearer {token}")
+                                .AddHeader("Authorization", $"Bearer {tokenObtenido}")
                                 .AddHeader("Content-Type", "application/json")
                                 .AddHeader("Client", $"{InterfaceConfig.client}")
                                 .AddHeader("Cookie", "ARRAffinity=2bd31e84ea0f19c15dd402e7a497a7675b0400bcd5ce5ea73b2f33494c77e44f; ARRAffinitySameSite=2bd31e84ea0f19c15dd402e7a497a7675b0400bcd5ce5ea73b2f33494c77e44f")
@@ -92,7 +92,7 @@ namespace DM_BA_88A.Services
                 log.RegistraEnLog($"Error en EnviarResultados: {ex.Message}", nombreLog);
             }
         }
-        private string ObtenerToken()
+        public string ObtenerToken()
         {
             try
             {

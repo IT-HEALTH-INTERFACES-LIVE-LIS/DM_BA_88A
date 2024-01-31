@@ -46,7 +46,7 @@ namespace DM_BA_88A.Forms
             rjInputsUrlResultados.BorderFocusColor = IncialColorInputs;
             rjInputsUrlToken.TextBoxText = InterfaceConfig.endPointToken;
             rjInputsUrlToken.BorderFocusColor = IncialColorInputs;
-            rjInputsBaseURL.TextBoxText = InterfaceConfig.endPointToken;
+            rjInputsBaseURL.TextBoxText = InterfaceConfig.endPointBase;
             rjInputsBaseURL.BorderFocusColor = IncialColorInputs;
             rjInputsDispositivoMedico.TextBoxText = InterfaceConfig.medicalDevice;
             rjInputsDispositivoMedico.BorderFocusColor = IncialColorInputs;
